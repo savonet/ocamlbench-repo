@@ -1,0 +1,13 @@
+opam-version: "2.0"
+maintainer: "kc@kcsrk.info"
+flags: compiler
+build: [
+  ["./configure" "-prefix" prefix "-with-debug-runtime"]
+  [make "world"]
+  [make "world.opt"]
+]
+install: [make "install"]
+url {
+  src: "git://github.com/kayceesrk/ocaml#trunk"
+}
+conflict-class: "ocaml-core-compiler"
