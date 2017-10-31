@@ -8,6 +8,6 @@ build: [
 ]
 install: [make "install"]
 url {
-  src: "git://github.com/kayceesrk/ocaml#immutable-read"
+  src: "git://github.com/kayceesrk/ocaml#branch-after-load-aarch64"
 }
 conflict-class: "ocaml-core-compiler"
