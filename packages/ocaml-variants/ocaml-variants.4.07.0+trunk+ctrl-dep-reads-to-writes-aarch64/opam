@@ -1,0 +1,13 @@
+opam-version: "2.0"
+maintainer: "kc@kcsrk.info"
+flags: compiler
+build: [
+  ["./configure" "-prefix" prefix "-with-debug-runtime" "-default-unsafe-string"]
+  [make "-j8" "world"]
+  [make "-j8" "world.opt"]
+]
+install: [make "install"]
+url {
+  src: "git://github.com/kayceesrk/ocaml#ctrl-dep-reads-to-writes-aarch64"
+}
+conflict-class: "ocaml-core-compiler"
