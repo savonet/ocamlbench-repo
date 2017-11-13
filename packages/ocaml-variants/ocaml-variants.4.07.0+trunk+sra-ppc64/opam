@@ -8,6 +8,6 @@ build: [
 ]
 install: [make "install"]
 url {
-  src: "git://github.com/kayceesrk/ocaml#sync-before-store-ppc64"
+  src: "git://github.com/kayceesrk/ocaml#sra-ppc64"
 }
 conflict-class: "ocaml-core-compiler"
