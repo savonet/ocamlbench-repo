@@ -3,7 +3,7 @@ name: "frama-c-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-depends: ["ocaml" "frama-c" {= "20170501"}]
+depends: ["ocaml" "frama-c" {>= "20170501"}]
 substs: [
   "frama-c-deflate.bench"
   "frama-c-idct.bench"
