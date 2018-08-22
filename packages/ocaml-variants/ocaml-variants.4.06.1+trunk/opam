@@ -2,13 +2,12 @@ opam-version: "2.0"
 maintainer: "louis.gesbert@ocamlpro.com"
 flags: compiler
 build: [
-  ["./configure" "-prefix" prefix "-with-debug-runtime" "-flambda"]
+  ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
   [make "world.opt"]
 ]
 install: [make "install"]
-setenv: [OCAMLPARAM = "_,O3=1"]
 url {
-  src: "git://github.com/ocaml/ocaml#trunk"
+  src: "git://github.com/ocaml/ocaml#81dc8e8"
 }
 conflict-class: "ocaml-core-compiler"

@@ -1,13 +1,13 @@
 opam-version: "2.0"
-maintainer: "xclerc@janestreet.com"
+maintainer: "louis.gesbert@ocamlpro.com"
 flags: compiler
 build: [
-  ["./configure" "-prefix" prefix "-flambda"]
+  ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
   [make "world.opt"]
 ]
 install: [make "install"]
 url {
-  src: "git://github.com/ocaml/ocaml#4.07"
+  src: "git://github.com/ocamllabs/ocaml-multicore"
 }
 conflict-class: "ocaml-core-compiler"
