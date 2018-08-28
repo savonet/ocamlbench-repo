@@ -8,6 +8,6 @@ build: [
 ]
 install: [make "install"]
 url {
-  src: "https://github.com/ocamllabs/ocaml-multicore/archive/cas-promotion.zip"
+  src: "git://github.com/ocamllabs/ocaml-multicore#cas-promotion"
 }
 conflict-class: "ocaml-core-compiler"
