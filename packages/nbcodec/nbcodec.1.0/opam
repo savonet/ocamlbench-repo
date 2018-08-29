@@ -10,5 +10,5 @@ license: "BSD3"
 build: [
   [ "./build" "setrip.native" ]
 ]
-depends: ["ocaml" "ocamlfind"]
+depends: ["ocaml" "ocamlfind" "ocamlbuild"]
 flags: light-uninstall
