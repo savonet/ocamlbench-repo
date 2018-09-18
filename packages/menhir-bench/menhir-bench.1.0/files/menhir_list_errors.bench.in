@@ -1,0 +1,4 @@
+((name menhir-list-errors)
+ (descr "menhir --list-errors ocaml.mly")
+ (cmd (%{bin}%/menhir %{menhir-bench:share}%/ocaml.mly --list-errors -la 2 --no-stdlib --lalr))
+ (speed Slow) (discard (Stdout)))

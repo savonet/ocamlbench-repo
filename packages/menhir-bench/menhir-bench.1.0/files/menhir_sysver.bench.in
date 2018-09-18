@@ -1,0 +1,4 @@
+((name menhir-sysver)
+ (descr "menhir sysver.mly")
+ (cmd (%{bin}%/menhir -v --table %{menhir-bench:share}%/sysver.mly))
+ (speed Slow) (discard (Stdout)))
