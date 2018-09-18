@@ -7,5 +7,6 @@ substs: [
   "menhir_fancy.bench"
   "menhir_sql.bench"
   "menhir_sysver.bench"
+  "menhir_list_errors.bench"
 ]
 flags: light-uninstall

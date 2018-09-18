@@ -3,6 +3,7 @@ share: [
   "fancy-parser.mly"
   "sql-parser.mly"
   "keywords.mly"
+  "ocaml.mly"
   "sysver.mly"
   "yacc-output.ml"
   "fancy-output.ml"
@@ -10,4 +11,5 @@ share: [
   "menhir_fancy.bench"
   "menhir_sql.bench"
   "menhir_sysver.bench"
+  "menhir_list_errors.bench"
 ]
