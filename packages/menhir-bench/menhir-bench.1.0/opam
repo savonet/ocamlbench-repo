@@ -6,5 +6,6 @@ substs: [
   "menhir_yacc.bench"
   "menhir_fancy.bench"
   "menhir_sql.bench"
+  "menhir_sysver.bench"
 ]
 flags: light-uninstall
